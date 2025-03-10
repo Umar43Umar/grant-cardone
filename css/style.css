@@ -1885,6 +1885,194 @@ span.event_date i {
 
 /* Footer css End */
 
+/* ABout page css*/
+.about-hero-section{
+  padding: 160px 0; 
+  background: url(../img/gc-about-banner-bg.webp) no-repeat center; 
+  background-size: cover;
+}
+
+.about-hero-section-text {
+  width: 50%; 
+  padding: 0 12px; 
+  margin-left: auto;
+  text-align: center; 
+  color: #fff;
+}
+
+.about-hero-section-text h1 {
+  font-size: 35px;
+  line-height: 90%;
+  color: #fff;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.about-hero-section-text p{  
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400; 
+  line-height: 1.2em;
+}
+
+.about-grant-cardone{
+  padding: 50px 25px;
+}
+
+.about-grant-cardone .head{
+  text-align: center;
+}
+
+.about-grant-cardone p{
+  font-size: 18px; 
+  color: #000; 
+  line-height: 1.5em; 
+  margin-bottom: 20px;
+}
+
+.about-grant-cardone h2{
+  font-size: 30px; 
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.2em; 
+  margin: 0;
+}
+
+.about-movement-section{
+  padding: 30px 0 40px;
+}
+
+.about-movement-head h2 {
+  font-size: 36px;
+  line-height: 90%;
+  color: #000;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 38px;
+}
+
+.about-movement-head h2+p{
+  text-align: center;
+}
+
+.about-movement-head p{
+  font-size: 18px;
+  color: #000;
+  line-height: 1.5em; 
+  margin-bottom: 20px;
+}
+
+.about-movement-head p a{
+  color: #1e73be;
+}
+
+.about-movement-head p a:hover{
+  color: #274271;
+}
+
+.about-movement-row{
+  display: flex; 
+  row-gap: 20px; 
+  flex-wrap: wrap; 
+  margin: 0 -15px;
+}
+
+.about-movement-row .item{
+  width: 33.33%; 
+  padding: 0 15px;
+}
+
+.about-movement-row .img{
+  margin-bottom: 10px;
+}
+
+.about-movement-row .img img{
+  width: 100%; 
+  display: block;
+}
+
+.about-movement-row .item p{
+  margin: 0;
+  font-size: 18px; 
+  color: #000; 
+  line-height: 1.5em;
+}
+
+.about-signup-section{
+  padding: 35px 0 53px; 
+  background: #eaeaea;
+}
+
+.about-signup-section-row{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between;
+}
+
+.about-signup-section-content{
+  width: 66%;
+}
+
+.about-signup-section-content h2{
+  font-size: 30px;
+  font-weight: 600; 
+  line-height: 1.2em; 
+  margin-bottom: 38px;
+}
+
+.about-signup-section-content .list-tick{
+  margin: 0; 
+  padding: 0; 
+  list-style: none;
+}
+
+.about-signup-section-content .list-tick li{
+  padding-left: 21px; 
+  font-size: 18px; 
+  line-height: 24px; 
+  margin-bottom: 6px; 
+  color: #222; 
+  font-weight: 700; 
+  position: relative;
+}
+
+.about-signup-section-content .list-tick li::before{
+  content: ""; 
+  width: 14px; 
+  height: 16px; 
+  background: url(../img/tick.svg) no-repeat center; 
+  background-size: cover;     
+  position: absolute;
+  top: 4px;
+  left: 0;
+}
+
+.about-banner-section{
+  background: url(../img/gc-bg-1.webp) no-repeat center; 
+  background-size: cover; 
+  padding: 255px 0;
+}
+
+.about-banner-section h2{    
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400; 
+  line-height: 1.2em;
+}
+
+.btn-green:hover{
+  color: #fff;
+}
+
+/* ABout page css End*/
 
 
 
@@ -2244,171 +2432,63 @@ span.event_date i {
     width: 100%;
   }
 
-  .about-grant-banner{
+  .about-hero-section{
     background: url(../img/gc-about-banner-bg-mob.webp) no-repeat center; 
     background-size: cover;
   }
 
-  .about-grant-banner-text{
+  .about-hero-section-text{
     width: 100%; 
     padding: 0;
   }
 
-  .about-grant-banner-text h1{
+  .about-hero-section-text h1{
     font-size: 30px;
   }
 
-  .about-grant-content h2{
+  .about-grant-cardone h2{
     font-size: 24px;
   }
 
-  .aboue_movement_head h2{
+  .about-movement-head h2{
     font-size: 28px;
   }
 
-  .about-grant-content{
+  .about-grant-cardone{
     padding-bottom: 28px;
   }
 
-  .aboue_movement_row .item{
+  .about-movement-row .item{
     width: 100%;
   }
 
-  .gc-sign-row{
+  .about-signup-section-row{
     row-gap: 50px;
   }
 
-  .gc-sign-content{
+  .about-signup-section-content{
     width: 100%;
   }
 
-  .gc-sign-content h2{
+  .about-signup-section-content h2{
     font-size: 24px;
   }
-
-  .gc-sign-form{
-    width: 100%;
-  }
-
-  .small-gc-banner{
+  .about-banner-section{
     padding: 50px 0;
   }
 
-  .small-gc-banner h2{
+  .about-banner-section h2{
     font-size: 24px;
   }
 
-  .hire-grant-banner{
-    padding: 100px 0;
-  }
 
-  .hire-grant-content h2{
-    font-size: 24px;
-  }
-
-  .hire-grant-img{
+  .about-signup-section.sign_new .about-signup-section-content {
     width: 100%;
   }
 
-  .hire-contact{
-    margin-bottom: 20px;
-  }
-
-  .inner_pages h2{
-    font-size: 24px;
-  }
-
-  .grant-cardone-banner{
-    padding: 1px 0;
-  }
-
-  .cardone-content h1{
-    font-size: 2.8rem;
-  }
-
-  .quotes_level h2{
-    font-size: 24px;
-  }
-
-  .quotes_level h4{
-    font-size: 18px; 
-    margin-bottom: 30px;
-  }
-
-  .ebooks-banner{
-    padding: 150px 0 100px;
-  }
-
-  .single_ebooks{
-    width: 100%;
-  }
-
-  .join-wrap{
-    padding: 50px 0;
-  }
-
-  .join-wrap h2{
-    font-size: 24px;
-  }
-
-  .join-wrap p{
-    font-size: 20px;
-  }
-
-  .freebook_banner_row .img{
-    display: none;
-  }
-
-  .freebook_banner_row .video{
-    width: 100%;
-  }
-
-  .freebook_img{
-    width: 100%;
-  }
-
-  .freebook_content{
-    width: 100%;
-  }
-
-  .download-quotes .d-flex .input-group{
-    width: 100%;
-  }
-
-  .gc-sign.sign_new .gc-sign-content {
-    width: 100%;
-  }
-
-  .gc-sign.sign_new .gc-sign-form { 
-    width: 100%;
-  }
-
-  .gc-sign-form .d-flex .input-group{
-    width: 100%;
-  }
-
-  .subscribe-welcome-img .item{
-    width: 100% ;
-  }
 
   #contact-info .links a div{
     margin: 0 auto;
-  }
-
-  .icon-text-row .item{
-    width: 50%;
-  }
-
-  .subscribe-social-row .item{
-    width: 33.33%;
-  }
-
-  .subscribe-social h4{
-    display: none;
-  }
-
-  .subscribe-social h2{
-    font-size: 24px;
   }
 }
 
@@ -2430,14 +2510,6 @@ span.event_date i {
 
   #contact-info .facebook-background svg {
     width: 14px;
-  }
-
-  .icon-text-row .item{
-    width: 100%;
-  }
-
-  .icon-text-row{
-    row-gap: 15px;
   }
 }
 
