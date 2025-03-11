@@ -20,6 +20,7 @@
   $('.mk-search-trigger').click(function(){
     $('.search-panel').addClass('search-panel-show');
   });
+
   $('.search-close').click(function(){
     $('.search-panel').removeClass('search-panel-show');
   });
@@ -64,6 +65,7 @@
   $(window).scroll(function() {
     btn.toggleClass('show', $(window).scrollTop() > 300);
   });
+  
   btn.on('click', function(e) {
     e.preventDefault();
     $('html, body').animate({scrollTop: 0}, '300');

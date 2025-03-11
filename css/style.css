@@ -859,6 +859,22 @@ nav#main-menu>ul{
   color: #000;
 }
 
+.header-button{
+  transition: all 0.3s ease;
+}
+
+.header-button a {
+  background: linear-gradient(to bottom, #c7202e 0%, #6b131c 100%);
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.header-button:hover{
+  transform: scale(1.1);
+}
+
 /*Header Css End */
 
 
